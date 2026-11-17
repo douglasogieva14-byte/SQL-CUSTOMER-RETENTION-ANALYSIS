@@ -5,7 +5,7 @@ A **MySQL** project that builds a small customer and transactions database, seed
 > **Business question:** Which active customers are at risk of churning, and how much revenue sits with them?
 > **Answer:** 3 of 7 active customers have been inactive for 139 to 194 days. Together they account for **$192.50 in fees (27.4% of the total)**.
 
-![Query results](images/01-query-results.png)
+![Query results](images/02-query-results.png)
 
 ## Key findings
 
@@ -31,7 +31,7 @@ A **MySQL** project that builds a small customer and transactions database, seed
 
 The result exactly as MySQL returned it, ordered by fees earned.
 
-![MySQL output](images/02-mysql-output.png)
+![MySQL output](images/01-query-results.png)
 
 A formatted one-page version with summary cards is in [`docs/`](docs/Customer_Retention_Results.pdf).
 
