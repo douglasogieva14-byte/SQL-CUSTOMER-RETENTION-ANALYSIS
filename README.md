@@ -33,7 +33,6 @@ The result exactly as MySQL returned it, ordered by fees earned.
 
 ![MySQL output](images/01-query-results.png)
 
-A formatted one-page version with summary cards is in [`docs/`](docs/Customer_Retention_Results.pdf).
 
 ## What I did in MySQL
 
@@ -60,7 +59,6 @@ A formatted one-page version with summary cards is in [`docs/`](docs/Customer_Re
 | `docs/Customer_Retention_Results.pdf` | PDF of the query results with summary cards and findings |
 | `images/` | The results page image and the raw MySQL output screenshot |
 
-**How to run:** install MySQL 8 (or MariaDB), then run `retention_strategy_analysis.sql` in MySQL Workbench or the command line. It creates the database and tables, loads the data and runs the query. The syntax is MySQL-specific (`AUTO_INCREMENT` and the two-argument `DATEDIFF`), so it needs small changes for SQL Server or PostgreSQL.
 
 ## Skills demonstrated
 
@@ -72,4 +70,4 @@ The data is mock data I created for this project. It does not describe real cust
 
 ## Contact
 
-**Douglas Ogieva** | Benin City, Nigeria | [LinkedIn](https://www.linkedin.com/in/douglasogieva) | [Email](mailto:douglasogieva14@gmail.com)
+**Douglas Ogieva** | Nigeria | [LinkedIn](https://www.linkedin.com/in/douglasogieva) | [Email](mailto:douglasogieva14@gmail.com)
